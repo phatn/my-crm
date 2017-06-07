@@ -14,6 +14,5 @@
 			This is footer
 		</div>
 	</div>
-<h1>This is Phat</h1>
 </body>
 </html>
