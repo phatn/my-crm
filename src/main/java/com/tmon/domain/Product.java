@@ -6,6 +6,10 @@ public class Product {
 	
 	private String name;
 
+	private double price;
+	
+	private double salePrice;
+	
 	public Long getId() {
 		return id;
 	}
@@ -21,6 +25,21 @@ public class Product {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public double getSalePrice() {
+		return salePrice;
+	}
+
+	public void setSalePrice(double salePrice) {
+		this.salePrice = salePrice;
+	}
 	
 }
