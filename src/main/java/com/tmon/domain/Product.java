@@ -10,6 +10,13 @@ public class Product {
 	
 	private double salePrice;
 	
+	private Integer age;
+
+
+	public void printMe() {
+		System.out.println("name: " + name + ", age: " + age);
+	}
+
 	public Long getId() {
 		return id;
 	}
@@ -41,5 +48,12 @@ public class Product {
 	public void setSalePrice(double salePrice) {
 		this.salePrice = salePrice;
 	}
-	
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
+	}
 }
