@@ -6,6 +6,13 @@ public class Product {
 	
 	private String name;
 
+	private Integer age;
+
+
+	public void printMe() {
+		System.out.println("name: " + name + ", age: " + age);
+	}
+
 	public Long getId() {
 		return id;
 	}
