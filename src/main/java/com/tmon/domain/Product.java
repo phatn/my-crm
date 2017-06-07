@@ -12,6 +12,13 @@ public class Product {
 	
 	private Integer age;
 
+	public Product(Long id, String name, double price, double salePrice, Integer age) {
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.salePrice = salePrice;
+		this.age = age;
+	}
 
 	public void printMe() {
 		System.out.println("name: " + name + ", age: " + age);
