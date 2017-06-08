@@ -12,6 +12,8 @@ public class Product {
 	
 	private Integer age;
 	
+	private String email;
+
 	public double calAverage() {
 		return (price + salePrice) * 1.0 /2;
 	}
