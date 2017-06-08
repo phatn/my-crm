@@ -21,7 +21,6 @@ public class Product {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
 	public double calAverage() {
 		return (price + salePrice) * 1.0 /2;
 	}
