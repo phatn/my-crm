@@ -8,6 +8,10 @@ public class Category {
         
     private String level;       
 
+    public Category() {
+    	
+    }
+    
 	public Long getId() {
 		return id;
 	}
@@ -31,5 +35,6 @@ public class Category {
 	public void setLevel(String level) {
 		this.level = level;
 	}
+	
 	
 }
