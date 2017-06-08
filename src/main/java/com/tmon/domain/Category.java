@@ -5,6 +5,8 @@ public class Category {
 	private Long id;
 	
 	private String name;
+        
+    private String level;       
 
 	public Long getId() {
 		return id;
@@ -22,5 +24,12 @@ public class Category {
 		this.name = name;
 	}
 
+	public String getLevel() {
+		return level;
+	}
+
+	public void setLevel(String level) {
+		this.level = level;
+	}
 	
 }
