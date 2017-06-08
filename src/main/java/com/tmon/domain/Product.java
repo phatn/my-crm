@@ -13,7 +13,14 @@ public class Product {
 	private Integer age;
 	
 	private String email;
+	
+	public String getEmail() {
+		return email;
+	}
 
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	public double calAverage() {
 		return (price + salePrice) * 1.0 /2;
 	}
