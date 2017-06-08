@@ -11,8 +11,18 @@ public class Product {
 	private double salePrice;
 	
 	private Integer age;
+	
+	public double calAverage() {
+		return (price + salePrice) * 1.0 /2;
+	}
 
-
+	public Product(Long id, String name, double price, double salePrice, Integer age) {
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.salePrice = salePrice;
+		this.age = age;
+	}
 	public void printMe() {
 		System.out.println("name: " + name + ", age: " + age);
 	}
