@@ -13,6 +13,8 @@ public class Product {
 	private Integer age;
 	
 	private String email;
+
+	private String address;
 	
 	public String getEmail() {
 		return email;

@@ -8,6 +8,8 @@ public class Category {
         
     private String level;       
 
+    private String product; 
+
 	public Long getId() {
 		return id;
 	}
