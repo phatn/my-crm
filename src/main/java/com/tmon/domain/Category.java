@@ -10,6 +10,16 @@ public class Category {
 
     private String product; 
 
+    public Category() {
+    	
+    }
+    
+    public Category(Long id, String name, String level) {
+    	this.id = id;
+    	this.name = name;
+    	this.level = level;
+    }
+    
 	public Long getId() {
 		return id;
 	}
@@ -33,5 +43,6 @@ public class Category {
 	public void setLevel(String level) {
 		this.level = level;
 	}
+	
 	
 }
