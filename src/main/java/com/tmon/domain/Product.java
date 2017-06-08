@@ -16,6 +16,8 @@ public class Product {
 
 	private String address;
 	
+	private String phone;
+	
 	public String getEmail() {
 		return email;
 	}
