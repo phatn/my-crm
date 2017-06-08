@@ -23,6 +23,7 @@ public class Product {
 		this.salePrice = salePrice;
 		this.age = age;
 	}
+
 	public void printMe() {
 		System.out.println("name: " + name + ", age: " + age);
 	}
